@@ -29,8 +29,8 @@ h1 {
     background-color: #99cdf5;
     color:#dcf1ef;
     border-color: #dcf1ef;
-    box-shadow: 5px 7px #73b5c6;
     border-style: solid;
+    cursor: pointer;
 }
 
 #ad {
@@ -44,8 +44,8 @@ h1 {
     background-color: #99cdf5;
     color: #dcf1ef;
     border-color: #dcf1ef;
-    box-shadow: 5px 7px #73b5c6;
     border-style: solid;
+    cursor: pointer;
 }
 
 #ex {
@@ -59,8 +59,8 @@ h1 {
     background-color: #99cdf5;
     color:#dcf1ef;
     border-color: #dcf1ef;
-    box-shadow: 5px 7px #73b5c6;
     border-style: solid;
+    cursor: pointer;
 }
 
 .grid {
@@ -117,4 +117,12 @@ h1 {
     border-color: #dcf1ef;
     box-shadow: 2px 4px #73b5c6;
     border-style: solid;
+}
+
+.fundo {
+    position: fixed;
+    background-color: #dcf1ef;
+    width: 730px;
+    height: 720px;
+    left: 750px;
 }
