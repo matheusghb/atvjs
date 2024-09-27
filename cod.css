@@ -126,3 +126,31 @@ h1 {
     height: 720px;
     left: 750px;
 }
+
+#ser {
+    width: 380px;
+    left: 815px;
+    position: fixed;
+    top: 40%;
+}
+
+#edi {
+    font-size: large;
+    position: fixed;
+    left: 870px;
+    top: 45%;
+}
+
+#con {
+    position: fixed;
+    left: 1120px;
+    top: 53%;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #99cdf5;
+    color:#dcf1ef;
+    border-color: #dcf1ef;
+    border-style: solid;
+    cursor: pointer;   
+}
