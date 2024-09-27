@@ -94,12 +94,15 @@ document.getElementById('li').addEventListener('click', function(){
     const grid = document.createElement('div');
     grid.className='grid';
     grid.id = 'grid'
+    grid.style.gridTemplateColumns = '200px 200px 100px 220px';
     document.getElementById('fu').appendChild(grid); 
     let i, len, text;
     for (let i = 0, len = lista.length, text = ''; i < len; i++) {
-        let g = document.createElement('div');
+        const g = document.createElement('div');
         g.className = 'g'+lista[i];
-        g.textContent = lista[i];
+        g.innerHTML = lista[i];
+        g.style.border = '3px solid #73b5c6';
+        g.style.textAlign = 'center';
         document.getElementById('grid').appendChild(g);
     }
 })
